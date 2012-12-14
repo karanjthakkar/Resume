@@ -1,2 +1,7 @@
-out/*
-
+*.bbl
+*.aux
+*.dvi
+*.txt
+*.out
+*.gz
+*.blg
