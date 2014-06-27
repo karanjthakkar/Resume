@@ -115,7 +115,7 @@
 
 % Finally, give us PDF bookmarks
 \usepackage{color,hyperref}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.7}
 \hypersetup{colorlinks,breaklinks,
             linkcolor=darkblue,urlcolor=darkblue,
             anchorcolor=darkblue,citecolor=darkblue}
@@ -204,6 +204,27 @@
 \usepackage{graphicx}
 \begin{document}
 
+%\href{http://google.com}{\includegraphics[bb=-4 30 0 0,scale=0.7]{git.png}}
+
+
+% For a right forkme png
+%\begin{figure}%[4]
+%		\vspace{-2.6cm}
+%		\hspace{12.2cm}
+%		\href{https://github.com/tUrG0n/Resume}{\includegraphics[scale=0.7]{git.png}}
+%		\vspace{-2.0cm}
+%\end{figure}
+
+
+% For a left forkme png
+%\begin{figure}%[4]
+%    \flushleft
+%		\vspace{-2.6cm}
+%		\hspace{-6.0cm}
+%		\href{https://github.com/tUrG0n/Resume}{\includegraphics[scale=0.7]{git.png}}
+%		\vspace{-2.0cm}
+%\end{figure}
+
 
 \makeheading{Karan Jitendra Thakkar \hfill \href{http://in.linkedin.com/in/karanjthakkar}{Linkedin}}
 
@@ -223,7 +244,20 @@
 \end{tabular}
 
 \hspace{-2.85cm}
-\rule{1.17\linewidth}{1pt}%
+\rule{1.185\linewidth}{1pt}%
+\blankline
+
+\section{Summary}
+
+\vspace{-10pt}
+
+\begin{innerlist}
+\item Hybrid Mobile Application Developer with 1.5 years of experience
+\item Comfortable with Grunt for seamless build tooling
+\item Capable of handling challenging problems and come up with creative solutions
+\item Love writing code that follows best practices, is maintainable and awesome!
+\end{innerlist}
+
 \blankline
 
 \section{Education}
@@ -238,36 +272,37 @@ Kolhapur, India
 \blankline
 
 \section{Online Courses}
+\href{http://education.mongodb.com/}{\textbf{M101JS: MongoDB for Node.js Developers}} \small \hfill \textbf{November '13 - December '13}
+\begin{innerlist}
+\item[] Grade 82.00\% \hfill \small \href{http://education.mongodb.com/downloads/certificates/2bc6c92e90974667bc5e5c93db335e71/Certificate.pdf}{\emph{Completion Certificate}}
+\end{innerlist}
+
+\href{http://coursera.org/}{\textbf{Computing for Data Analysis}} \small \hfill \textbf{October '13 - November '13}
+\begin{innerlist}
+\item[] Grade 89.00\% \hfill \small \href{http://karanjthakkar.files.wordpress.com/2013/11/computing-for-data-analysis.pdf}{\emph{Statement of Accomplishment}}
+\end{innerlist}
+
 \href{http://ai-class.com/}{\textbf{Introduction to Artificial Intelligence}} \small \hfill \textbf{October '12 - December '12}
 \begin{innerlist}
 \item[] Grade 79.30\% \hfill \small \href{http://karanjthakkar.files.wordpress.com/2012/12/statement-of-accomplishment.pdf}{\emph{Statement of Accomplishment}}
 \end{innerlist}
 
-\href{http://ai-class.com/}{\textbf{Computing for Data Analysis}} \small \hfill \textbf{September '13 - October '13}
-\begin{innerlist}
-\item[] Grade 89.00\% \hfill \small \href{http://karanjthakkar.files.wordpress.com/2013/11/computing-for-data-analysis.pdf}{\emph{Statement of Accomplishment}}
-\end{innerlist}
-
 \blankline
 
 \section{Tech Skills}
-\textbf{Languages:} C, C$+$$+$, C$\#$, Core Java, Python, Pro*C/C++, SQL, HTML5, CSS3, Javascript, Embedded C (8051/ARM)
+\textbf{Languages:} Javascript, HTML5, CSS3, C$+$$+$, C$\#$, Core Java
 
 \vspace{8pt}
 
-\textbf{Tools:} \LaTeX, KiCAD, Keil $\mu$vision, Cadsoft EAGLE, Flash Magic, Visual Studio, Eclipse, git (\href{http://github.com/karanjthakkar}{github})
+\textbf{Tools:} Brackets, Eclipse, TortoiseSVN, Visual Studio, git (\href{http://github.com/karanjthakkar}{github}), JIRA, HP Quality Center, \LaTeX
 
 \vspace{8pt}
 
-\textbf{Frameworks:} Sencha Touch, EnyoJS
+\textbf{Frameworks:} BackboneJS, Sencha Touch, EnyoJS
 
 \vspace{8pt}
 
-\textbf{Libraries:} jQuery, Kinect SDK, OpenCV
-
-\vspace{8pt}
-
-\textbf{Hardware Platforms:} 8051, ARM, Arduino
+\textbf{Libraries:} Phonegap, jQuery, Underscore, RequireJS, Grunt
 
 \blankline
 
@@ -275,12 +310,12 @@ Kolhapur, India
 \small \textbf{\href{http://www.tcs.com}{Tata Consultancy Services Ltd.}}, Pune, India \normalsize
 \begin{innerlist}
 \item[] \textbf{Assistant Systems Engineer \small \hfill January '13 - Present}
-\item[] Working as a Hybrid Mobile Applications Developer for TCS Mobility Solutions Ltd.
+\item[] Worked on the development of a hybrid mobile applications using HTML, CSS, Javascript, Phonegap and modular cross platform javascript frameworks like BackboneJS, Sencha Touch, EnyoJS
 \end{innerlist}
 
 \vspace{8pt}
 
-\small \textbf{\href{http://www.asep-championship.com}{Gade Autonomous Systems Pvt. Ltd.}}, Mumbai, India \normalsize
+\small \textbf{\href{http://www.autonomous-systems.in/}{Gade Autonomous Systems Pvt. Ltd.}}, Mumbai, India \normalsize
 \begin{innerlist}
 \item[] \textbf{Research Intern \small \hfill September '12 - November '12}
 \item[] Developed a WPF application for a Gesture Based Picture Viewer using Microsoft Kinect
@@ -288,39 +323,48 @@ Kolhapur, India
 
 \vspace{8pt}
 
-\small \textbf{\href{http://www.callbackers.com/}{Callbackers Pvt. Ltd.}}, Chandigarh, India \normalsize
+\small \textbf{\href{https://www.linkedin.com/company/callbackers-pvt-ltd}{Callbackers Pvt. Ltd.}}, Chandigasrh, India \normalsize
 \begin{innerlist}
-\item[] \textbf{Intern \small \hfill July '12 - August '12}
+\item[] \textbf{Remote Intern \small \hfill July '12 - August '12}
 \item[] Designed ready-to-manufacture GSM and Xbee shields for Arduino Uno using EAGLE PCB design tool
 \end{innerlist}
 
 \blankline
 
 \section{Projects}
+\small \textbf{Investment Pulse \hfill December '13 - Present} \normalsize
+\begin{innerlist}
+\item[] \textbf{Client}: Fidelity Worldwide Investments
+\item[] \textbf{Technologies}: HTML5, CSS3, Javascript, BackboneJS, Phonegap, Google Analytics, iOS/Android Plugins
+\item[] Developed an application that allowed individual investors to view details of their investments, related news and manage their investments \normalsize
+\end{innerlist}
+
+\vspace{8pt}
+
+\small \textbf{Resource Management System \hfill August '13 - October '13} \normalsize
+\begin{innerlist}
+\item[] \textbf{Client}: TCS Internal - Proof of Concept
+\item[] \textbf{Technologies}: HTML5, CSS3, Javascript, Sencha Touch, ExtJS
+\item Front End Development utilizing HTML5, CSS3, and JavaScript leveraging the Sencha Touch cross platform framework and a Java/MySQL backend
+\hspace{-2.85cm}\item UI/UX Development with responsive web design principles \normalsize
+\end{innerlist}
+
+\vspace{8pt}
+
+\small \textbf{HP\textsuperscript{\textregistered} Discover \hfill December '13 - Present} \normalsize
+\begin{innerlist}
+\item[] \textbf{Client}: Hewlett-Packard
+\item[] \textbf{Technologies}: HTML5, CSS3, Javascript, EnyoJS
+\item[] Worked in a limited capacity for enhancement of an event mangement application for attendees of HP\textsuperscript{\textregistered} Discover 2013 \normalsize
+\end{innerlist}
+
+\vspace{8pt}
+
 \small \textbf{V'Me: A Gesture Based Picture Viewer application \hfill September '12 - November '12} \normalsize
 \begin{innerlist}
-\item[] Developed a WPF application for a Gesture Based Picture Viewer using Microsoft Kinect. Implemented functionalities such as: Swipe Left, Swipe Right, Zoom In, Zoom Out, Panning, Moving mouse cursor and Switching to different folders.\hfill \small \href{http://github.com/karanjthakkar/Gesture-Based-Picture-Viewer}{\textit{Code}} $|$ \href{http://youtu.be/v8SumS-I1qo}{\textit{Demo}} \normalsize
-\end{innerlist}
-
-\vspace{8pt}
-
-\small \textbf{Jerry: An Intelligent Maze-Solving Robot \hfill August '11 - March '12} \normalsize
-\begin{innerlist}
-\item[] Worked on the design and construction of an efficient, intelligent, small, autonomous robot that can solve any arbitrary maze by finding the smallest and/or fastest path to the destination. This was done as a part of academic requirement for the final year. \small \hfill \href{http://karanjthakkar.files.wordpress.com/2012/03/jerry.pdf}{\textit{Report}} \normalsize
-\end{innerlist}
-
-\vspace{8pt}
-
-\small \textbf{Hand Gesture Controlled Robot \hfill December '12} \normalsize
-\begin{innerlist}
-\item[] Developed a vehicle which was controlled by the motion of hand using an accelerometer
-\end{innerlist}
-
-\vspace{8pt}
-
-\small \textbf{AC Mains Line Frequency Monitoring \hfill January '11 - March '11} \normalsize
-\begin{innerlist}
-\item[] Worked on design and construction of an electronic circuit for measuring the frequency of AC Mains power supply using PLL and take corrective measures if necessary.
+\item[] \textbf{Client}: Gade Autonomous Systems Pvt. Ltd.
+\item[] \textbf{Technologies}: C\#, XAML, Kinect SDK
+\item[] Developed a WPF application for a Gesture Based Picture Viewer using Microsoft Kinect. Implemented functionalities such as: Swipe Left, Swipe Right, Zoom In, Zoom Out, Panning, Moving mouse cursor and Switching to different folders.\hfill \small \href{http://github.com/karanjthakkar/Gesture-Based-Picture-Viewer}{\textit{Code}} $|$ \href{http://youtu.be/v8SumS-I1qo}{\textit{Demo}} $|$ \href{http://autonomous-systems.in/#vme}{\textit{Website}} \normalsize
 \end{innerlist}
 
 \vspace{8pt}
@@ -328,14 +372,6 @@ Kolhapur, India
 Other independent projects hosted on \href{http://resume.github.com/?karanjthakkar}{\textit{\textbf{Github} } }
 
 \blankline
-
-\section{Other Activities}
-\vspace{-12pt}
-\begin{innerlist} \itemsep 0pt
-\item \textit{One of four} participants to represent college at \textit{Zonal Chess Competitions} '11
-\item Placed 2$^{nd}$ in Inter-College Astronomy quiz, \textit{Krutika '11}
-\item \emph{Technical Coordinator}, Association of Electronics and Telecommunication Students at KIT's College of Engineering, Kolhapur
-\end{innerlist}
 
 
 \end{document}
